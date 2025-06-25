@@ -1,0 +1,23 @@
+/* Grid.css */
+.grid-container {
+  width: 100%;
+  /* max-width: 600px; */
+  width: fit-content;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+
+.grid {
+  padding: 8px;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: #1e293b;
+  border-radius: 12px;
+}
+
+.grid > * {
+  aspect-ratio: 1;
+  width: 100%;
+  box-sizing: border-box;
+}

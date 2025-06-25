@@ -1,0 +1,15 @@
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-containers {
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

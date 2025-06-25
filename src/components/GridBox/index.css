@@ -1,0 +1,41 @@
+.box {
+  height: 80px;
+  width: 80px;
+  /* border: 1px solid white; */
+  margin: 5px;
+  /* border-color: blue; */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.box i {
+  font-size: 40px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.box.highlight {
+  outline: 2px dashed red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}

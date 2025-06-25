@@ -2,7 +2,7 @@
 
 A unique local multiplayer Tic Tac Toe game built using **React** and **JavaScript**, supporting **2 to 4 players**. This version features a fun **Survival Mode** twist that keeps the gameplay dynamic and strategic.
 
-🔗 **Live Demo**: [Play Now on Render](https://tic-tac-toe-multiplayer.onrender.com)
+🔗 **Live Demo**: [Play Now on Render](https://tic-tac-toe-multiplayer-react.onrender.com)
 
 ---
 
